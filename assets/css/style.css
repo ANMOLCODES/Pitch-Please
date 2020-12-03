@@ -1677,3 +1677,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+.speaker{
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.speaker img{
+  transition: 1s;
+  cursor: pointer;
+}
+.speaker img:hover{
+  transform: scale(1.1);
+}
